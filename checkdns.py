@@ -1,3 +1,5 @@
+import dns.resolver
+
 def check_nameserver(domain):
     try:
         nameserver=["8.8.8.8", "1.1.1.1", "9.9.9.9"]
